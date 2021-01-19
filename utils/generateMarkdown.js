@@ -1,10 +1,32 @@
 // function to generate markdown for README
-function generateMarkdown(apples) {
-  return `# ${apples.title}
-## Description
+function generateMarkdown(readme) {
+  return `# ${readme.title}
 
-${apples.description}
+***
+
+## Description
+${readme.description}
+## Table of Contents
+${readme.toc}
+## Installation
+${readme.installation}
+## Usage
+${readme.usage}
+## Licenses
+${readme.licenses}
+### Contribution
+${readme.contribution}
+### Testing
+${readme.test}
+### Questions?
+${readme.questions}
+
+# Contact
+* GitHub :${git}
+* E-mail :${email}
 `;
 }
+
+
 
 module.exports = generateMarkdown;
