@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const markdown = require("./utils/generateMarkdown");
-const fs = require("fs")
+const fs = require("fs");
 
 // array of questions for user
 inquirer.prompt(
@@ -17,12 +17,6 @@ inquirer.prompt(
         message: "Provide a brief description of your project.",
         name:"description",
         validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},        
-    },
-    {
-        type: 'input',
-        message: 'If your README is very long, add a table of contents to make it easy for users to find what they need. Otherwise, type N/A.',
-        name: 'toc',
-        validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},
     },
     {
         type: 'input',
