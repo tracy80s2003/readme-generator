@@ -4,6 +4,15 @@ function generateMarkdown(readme) {
 
 ***
 
+*[Description]{#description}
+*[Table of Contents]{#toc}
+*[Installation]{#installation}
+*[Usage]{#usage}
+*[Licenses]{#licenses}
+*[Contribution]{#contribution}
+*[Testing]{#test}
+*[Questions]{#questions}
+*[Contact]{#contact}
 ## Description
 ${readme.description}
 ## Table of Contents
