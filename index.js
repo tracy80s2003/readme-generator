@@ -70,7 +70,7 @@ inquirer.prompt(
     },
 ]).then(res => {
     console.log(res)
-    fs.writeFile("README.md", generateMarkdown(res), err => {
+    fs.writeFile("READMEgenerated.md", generateMarkdown(res), err => {
         if (err) throw err;
     })
     console.log('Your Readme has been generated!');
