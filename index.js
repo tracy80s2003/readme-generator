@@ -46,7 +46,7 @@ inquirer.prompt(
     },
     {
         type: 'input',
-        message: 'Test instructions - Go the extra mile and write tests for your application. Then provide examples on how to run them. Otherwise, type N/A.',
+        message: 'Test instructions for your application - provide examples on how to run them. Otherwise, type N/A.',
         name: 'test',
         validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},
     },
