@@ -18,8 +18,7 @@ As a developer, I want a README generator so that I can quickly create a profess
 
 ## Demo
 See below: 
-<img src="./assets/images/workday_scheduler_screenshot.png" />
-![ README Generator Demo](https://sample/url/name-of-gif-file.gif)
+<img src="./assets/images/recording.gif" />
 
 
 https://tracy80s2003.github.io/readme-generator/
