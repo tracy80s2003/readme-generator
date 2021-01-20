@@ -1,16 +1,16 @@
 // function to generate markdown for README
-function generateMarkdown(readme) {
+function generateMarkdown(response) {
   return `
   
-# ${readme.title}
+# ${response.title}
 
 ***
 
 ## Description
-${readme.description}
+${response.description}
 
 ## Table of Contents
-${readme.toc}
+${response.toc}
 *[Description]{#description}
 *[Table of Contents]{#toc}
 *[Installation]{#installation}
@@ -24,26 +24,26 @@ ${readme.toc}
 ***
 
 ## Installation
-${readme.installation}
+${response.installation}
 
 ## Usage
-${readme.usage}
+${response.usage}
 
-## Licenses
-${readme.licenses}
+## License
+${response.license}
 
 ### Contribution
-${readme.contribution}
+${response.contribution}
 
 ### Testing
-${readme.test}
+${response.test}
 
 ### Questions?
-${readme.questions}
+${response.questions}
 
 # Contact
-* GitHub :${git}
-* E-mail :${email}
+* GitHub :${response.git}
+* E-mail :${response.email}
 `;
 }
 
