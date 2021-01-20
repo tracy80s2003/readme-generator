@@ -20,7 +20,7 @@ inquirer.prompt(
     },
     {
         type: 'input',
-        message: 'Installation instructions - What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. Otherwise, type N/A.',
+        message: 'Installation instructions - What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. Otherwise, hit enter.',
         name: 'installation',
         validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},
     },
@@ -40,13 +40,13 @@ inquirer.prompt(
     },
     {
         type: 'input',
-        message: 'Contribution Guidelines - If you created an application or package and would like other developers to contribute it, you should add guidelines here for how to do so. Otherwise, type N/A.',
+        message: 'Contribution Guidelines - If you created an application or package and would like other developers to contribute it, add guidelines here. Otherwise, hit enter.',
         name: 'contribution',
         validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},
     },
     {
         type: 'input',
-        message: 'Test instructions for your application - provide examples on how to run them. Otherwise, type N/A.',
+        message: 'Test instructions for your application - provide examples on how to run them. Otherwise, hit enter.',
         name: 'test',
         validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},
     },
