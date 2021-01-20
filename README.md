@@ -17,8 +17,10 @@ A walkthrough video has been provided to demonstrate its functionality.
 As a developer, I want a README generator so that I can quickly create a professional README for each new project.
 
 ## Demo
-See below: 
+See demos below: 
 <img src="./assets/images/recording.gif" />
+
+https://drive.google.com/file/d/1RCz3f7QQGvky0JuL_75xRHaKWQ5Mtchz/view
 
 
 https://tracy80s2003.github.io/readme-generator/
