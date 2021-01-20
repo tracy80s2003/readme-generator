@@ -42,9 +42,9 @@ ${response.test}
 ### Questions?
 ${response.questions}
 
-# Contact
-* GitHub :${response.git}
-* E-mail :${response.email}
+### Contact
+* GitHub : ${response.git}
+* E-mail : ${response.email}
 `;
 }
 

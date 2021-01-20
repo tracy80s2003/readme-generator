@@ -19,6 +19,7 @@
   "homepage": "https://github.com/tracy80s2003/readme-generator#readme",
   "dependencies": {
     "badges": "^4.24.0",
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "markdown-toc": "^1.2.0"
   }
 }
