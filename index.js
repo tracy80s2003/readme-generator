@@ -35,7 +35,7 @@ inquirer.prompt(
         type: 'list',
         message: 'Which license is the application covered under? This lets other developers know what they can and cannot do with your project.',
         name: 'license',
-        choices: ['The MIT License', 'The GPL License', 'Apache License', 'GNU License', 'N/A'],
+        choices: ['The MIT License', 'The GPL License', 'Apache License', 'GNU License', 'Other', 'N/A'],
         validate: (value) => { if(value){return true} else {return 'i need a value to continue'}},
     },
     {
@@ -73,5 +73,5 @@ inquirer.prompt(
     fs.writeFile("READMEgenerated.md", generateMarkdown(res), err => {
         if (err) throw err;
     })
-    console.log('Your Readme has been generated!');
+    console.log('Your README has been generated!');
 })
